@@ -18,6 +18,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="text.cpp">
+      <Filter>psum</Filter>
+    </ClCompile>
     <ClCompile Include="psum_ex.cpp">
       <Filter>psum</Filter>
     </ClCompile>
