@@ -24,5 +24,8 @@
     <ClCompile Include="psum_ex.cpp">
       <Filter>psum</Filter>
     </ClCompile>
+    <ClCompile Include="header.h">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

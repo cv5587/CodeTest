@@ -1,6 +1,5 @@
-#include "bits/stdc++.h"
+#include "header.h"
 
-void main()
-{
-	
+int main() {
+
 }
