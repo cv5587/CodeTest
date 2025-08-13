@@ -1,4 +1,6 @@
 #include "bits/stdc++.h"
+
+
 using namespace std;
 int func1 (int N) {
 	int result = 0;
