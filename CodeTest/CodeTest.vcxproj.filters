@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="text.cpp">
+    <ClCompile Include="barkingdog0x00.cpp">
       <Filter>psum</Filter>
     </ClCompile>
     <ClCompile Include="psum_ex.cpp">
