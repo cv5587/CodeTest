@@ -25,6 +25,9 @@
     <Filter Include="bigrock\1">
       <UniqueIdentifier>{a6bdde62-9add-40dc-bcb5-a7e7affbd82a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="bigrock\2">
+      <UniqueIdentifier>{34706136-bd06-4d43-8326-0d22a47c08a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="barkingdog0x00.cpp">
@@ -38,6 +41,15 @@
     </ClCompile>
     <ClCompile Include="1_A.cpp">
       <Filter>bigrock\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2-A.cpp">
+      <Filter>bigrock\2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-ex1.cpp">
+      <Filter>bigrock\2</Filter>
+    </ClCompile>
+    <ClCompile Include="2_ex2.cpp">
+      <Filter>bigrock\2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
