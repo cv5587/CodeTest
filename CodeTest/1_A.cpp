@@ -1,34 +1,45 @@
 #include "header.h"
 using namespace std;
 
-void swap(int& a, int& b)
+int height[9] = { 0, };
+int sum = 0;
+pair<int, int> ret;
+void Result()
 {
-	int temp = a;
-	a = b;
-	b = temp;
+	for (int i = 0; i < 9; i++)
+	{
+		for (int j = 0; j < 9; j++)
+		{
+			if (sum - height[i]-height[j]== 100)
+			{
+				ret = { i ,j };
+				return;
+			}
+		}
+	}
 }
 
 void main()
 {
-	int height[8] = { 0, };
-	for (int i = 0; i < 8; i++) {
+
+	
+	for (int i = 0; i < 9; i++) {
 		cin >> height[i];
+		sum += height[i];
 	}
-
-	for (int i = 0; i < 8; i++)
+	Result();
+	vector<int> v;
+	for (int i = 0; i < 9; i++)
 	{
-		for (int j = i+1; j < 8; j++)
+		if (ret.first == i || ret.second ==i)
 		{
-
-			if (height[i]>height[j])
-			{
-				swap(height[i], height[j]);
-			}
+			continue;
 		}
+		v.push_back(height[i]);
 	}
 
-	for (int i = 0; i < 8; i++)
-	{
-		cout << height[i] << " ";
-	}
+	sort(v.begin(), v.end());
+	for (int i : v)cout << i << " ";
+	return;
+
 }
