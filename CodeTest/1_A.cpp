@@ -1,4 +1,4 @@
-#include "header.h"
+#include<bits/stdc++.h>
 using namespace std;
 
 int height[9] = { 0, };
@@ -8,7 +8,7 @@ void Result()
 {
 	for (int i = 0; i < 9; i++)
 	{
-		for (int j = 0; j < 9; j++)
+		for (int j = 0; j < i; j++)
 		{
 			if (sum - height[i]-height[j]== 100)
 			{
@@ -19,7 +19,7 @@ void Result()
 	}
 }
 
-void main()
+int main()
 {
 
 	
@@ -39,7 +39,9 @@ void main()
 	}
 
 	sort(v.begin(), v.end());
-	for (int i : v)cout << i << " ";
-	return;
+	for (int i : v)
+		cout << i << "\n";
+
+	return 0;
 
 }
