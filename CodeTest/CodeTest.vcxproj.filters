@@ -28,6 +28,9 @@
     <Filter Include="bigrock\2">
       <UniqueIdentifier>{34706136-bd06-4d43-8326-0d22a47c08a7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="bigrock\7">
+      <UniqueIdentifier>{813c4bc0-4e30-406d-b24a-a2072f894fe4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="barkingdog0x00.cpp">
@@ -50,6 +53,27 @@
     </ClCompile>
     <ClCompile Include="2_ex2.cpp">
       <Filter>bigrock\2</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="승원이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="종화.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dp.cpp">
+      <Filter>bigrock\7</Filter>
+    </ClCompile>
+    <ClCompile Include="dp2.cpp">
+      <Filter>bigrock\7</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디_ex2.cpp">
+      <Filter>bigrock\7</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
