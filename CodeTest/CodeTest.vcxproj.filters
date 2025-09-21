@@ -87,5 +87,8 @@
     <ClCompile Include="2-D.cpp">
       <Filter>bigrock\2\문제풀이</Filter>
     </ClCompile>
+    <ClCompile Include="2_E.cpp">
+      <Filter>bigrock\2\문제풀이</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
