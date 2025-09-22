@@ -40,6 +40,9 @@
     <Filter Include="bigrock\6">
       <UniqueIdentifier>{d76d644c-e0b8-4ca3-b988-ce352b8e0548}</UniqueIdentifier>
     </Filter>
+    <Filter Include="bigrock\5\문제풀이">
+      <UniqueIdentifier>{0a4a3d48-2a3e-4e11-a330-17b51b802f8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="barkingdog0x00.cpp">
@@ -103,7 +106,7 @@
       <Filter>bigrock\6</Filter>
     </ClCompile>
     <ClCompile Include="5-A.cpp">
-      <Filter>bigrock\5</Filter>
+      <Filter>bigrock\5\문제풀이</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
