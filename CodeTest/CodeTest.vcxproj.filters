@@ -108,5 +108,14 @@
     <ClCompile Include="5-A.cpp">
       <Filter>bigrock\5\문제풀이</Filter>
     </ClCompile>
+    <ClCompile Include="5-B.cpp">
+      <Filter>bigrock\5\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="2_E.cpp">
+      <Filter>bigrock\2\문제풀이</Filter>
+    </ClCompile>
+    <ClCompile Include="5-C.cpp">
+      <Filter>bigrock\5\문제풀이</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
