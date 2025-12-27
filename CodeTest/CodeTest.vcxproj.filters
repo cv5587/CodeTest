@@ -120,5 +120,8 @@
     <ClCompile Include="5-D.cpp">
       <Filter>bigrock\5\문제풀이</Filter>
     </ClCompile>
+    <ClCompile Include="2-F.cpp">
+      <Filter>bigrock\2\문제풀이</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
