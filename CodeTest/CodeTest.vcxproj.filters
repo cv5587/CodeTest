@@ -135,5 +135,8 @@
     <ClCompile Include="2-H.cpp">
       <Filter>bigrock\2\문제풀이</Filter>
     </ClCompile>
+    <ClCompile Include="2-I.cpp">
+      <Filter>bigrock\2\문제풀이</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
